@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>people Counter</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="calculator">
+    
+    
+        <div id="screen" class="">
+               <div class="screen_white_back">
+                <input type="number"  id="firstNum" class="num" placeholder=" number">
+                <label id="operator_label" >+</label>
+                <input type="number" maxlength="8" max="8" id="secondNum" class="num" name="second_num" placeholder=" number">
+        </div>
+      
+            <label  id="screen_result_label" class="screen_white_back">=</label>
+        </div>
+       
+        <div id="functional_perator">
+            <button id="addition_function"  class="sign" onclick="add()">+</button>
+            <div id="other_operations">
+                <button id="multiplication_function" class="sign" onclick="mult()">x</button>
+                <button id="clear_function" class="sign" onclick="clear()">clear</button>
+                <button id="division_function" class="sign" onclick="div()">/</button>
+            </div>
+            <button id="subtraction_function"  class="sign" onclick="sub()">-</button>
+        </div>
+        </div>
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
